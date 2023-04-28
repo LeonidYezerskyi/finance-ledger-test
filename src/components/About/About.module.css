@@ -1,0 +1,41 @@
+.infoWrapper {
+    background-color: #28A745;
+    padding: 79px 20px;
+}
+
+.img {
+    height: 220px;
+}
+
+.subtitle {
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.title {
+    font-size: 32px;
+    line-height: 44px;
+    color: #FFFFFF;
+        margin-top: 16px;
+    margin-bottom: 24px;
+}
+
+.mainInfo {
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+
+.button {
+    background: #28A745;
+    border-radius: 5px;
+    border: 1px solid #FFFFFF;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 22px;
+}

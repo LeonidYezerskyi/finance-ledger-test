@@ -1,0 +1,16 @@
+import React from 'react'
+import css from './Home.module.css'
+import Header from 'components/Header/Header'
+import Hero from 'components/Hero/Hero'
+
+
+const Home = () => {
+    return (
+        <div className={css.container}>
+            <Header />
+            <Hero />
+        </div>
+    )
+}
+
+export default Home

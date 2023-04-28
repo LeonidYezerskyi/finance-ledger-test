@@ -1,0 +1,17 @@
+.logo {
+    padding-top: 22px;
+    padding-left: 24px;
+}
+
+.headerNav {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    margin-top: 16px;
+}
+
+.headerNavLink {
+    font-size: 17px;
+    line-height: 22px;
+    color: #FFFFFF;
+}

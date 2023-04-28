@@ -1,0 +1,20 @@
+.footerWrapper {
+    background-color: #333333;
+}
+
+.list {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    margin-bottom: 12px;
+}
+
+.copyright {
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-bottom: 20px;
+}

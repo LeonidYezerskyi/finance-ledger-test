@@ -1,0 +1,37 @@
+.title {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 54px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 62px;
+    margin-bottom: 16px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.subtitle {
+    font-size: 26px;
+    line-height: 32px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 24px;
+}
+
+.button {
+    display: flex;
+    background: #28A745;
+    border-radius: 5px;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    font-size: 18px;
+    line-height: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.buttonImg {margin-right: 8px;}
