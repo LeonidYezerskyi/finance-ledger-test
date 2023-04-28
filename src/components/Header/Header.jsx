@@ -1,13 +1,18 @@
 import React from 'react';
+import { useMedia } from 'react-use';
 import logo from '../../images/logo/logo.svg';
+import logoTablet from '../../images/logo/logoTablet.svg';
 import css from './Header.module.css'
 
 const Header = () => {
+    const isWide = useMedia('(max-width: 767.9px)');
+
     return (
-        <div>
+        <div className={css.header}>
             <div className={css.logo}>
                 <a href="/">
-                    <img src={logo} alt="logo" width="246.31" />
+                    {isWide ? (<img src={logo} alt="logo" width="246.31" />) :
+                        (<img src={logoTablet} alt="logoTablet" width="297" />)}
                 </a>
             </div>
             <ul className={css.headerNav}>
