@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.css": "/finance-ledger-test/static/css/main.36829075.css",
-    "main.js": "/finance-ledger-test/static/js/main.29552445.js",
+    "main.css": "/finance-ledger-test/static/css/main.4524e3c2.css",
+    "main.js": "/finance-ledger-test/static/js/main.7805fa20.js",
     "static/media/backgroundTablet.jpg": "/finance-ledger-test/static/media/backgroundTablet.73c58f9aec29be2efd5a.jpg",
     "static/media/background.jpg": "/finance-ledger-test/static/media/background.51cab55d982ce4bcedb5.jpg",
     "static/media/peopleDesk.jpg": "/finance-ledger-test/static/media/peopleDesk.025e71c2eb8b92a53d5b.jpg",
     "static/media/OpenSans-Regular.ttf": "/finance-ledger-test/static/media/OpenSans-Regular.37c522d97be8b2c0ab47.ttf",
     "static/media/OpenSans-SemiBold.ttf": "/finance-ledger-test/static/media/OpenSans-SemiBold.b75e70054837b43d3c5e.ttf",
     "static/media/people.jpg": "/finance-ledger-test/static/media/people.f32f74cc55eb8b3518b7.jpg",
+    "static/media/blogDesk.jpg": "/finance-ledger-test/static/media/blogDesk.4f26f505992de28a717c.jpg",
+    "static/media/contactDesk.jpg": "/finance-ledger-test/static/media/contactDesk.91f1aef42b5121d5cade.jpg",
     "static/media/peopleTablet.jpg": "/finance-ledger-test/static/media/peopleTablet.683d882a5778da2e5057.jpg",
     "static/media/cases6.jpg": "/finance-ledger-test/static/media/cases6.bc8713e3f48b0aee4eab.jpg",
     "static/media/blog.jpg": "/finance-ledger-test/static/media/blog.7a77e4040b289e838659.jpg",
@@ -15,9 +17,11 @@
     "static/media/cases1.jpg": "/finance-ledger-test/static/media/cases1.64dcfe4d42845316bcf2.jpg",
     "static/media/cases4.jpg": "/finance-ledger-test/static/media/cases4.0c2434529d95dc5103d7.jpg",
     "static/media/contact.jpg": "/finance-ledger-test/static/media/contact.df3181530910b96adc57.jpg",
+    "static/media/blogTablet.jpg": "/finance-ledger-test/static/media/blogTablet.c8e0a123a6826c188a7b.jpg",
     "static/media/person2.jpg": "/finance-ledger-test/static/media/person2.6d1f75facd2adf912ada.jpg",
     "static/media/cases2.jpg": "/finance-ledger-test/static/media/cases2.3758803cff01fbec967c.jpg",
     "static/media/person3.jpg": "/finance-ledger-test/static/media/person3.9f444ad1693a0e346d5f.jpg",
+    "static/media/contactTab.jpg": "/finance-ledger-test/static/media/contactTab.769e2e34e48f5390ac39.jpg",
     "static/media/cases3.jpg": "/finance-ledger-test/static/media/cases3.936cb2fcbdc950fb047d.jpg",
     "static/media/cases5.jpg": "/finance-ledger-test/static/media/cases5.855b02a74ffed4538fb1.jpg",
     "static/media/logo.svg": "/finance-ledger-test/static/media/logo.fbbc105d19183050df38dd7ddee3baf9.svg",
@@ -28,11 +32,11 @@
     "static/media/linkedin.svg": "/finance-ledger-test/static/media/linkedin.ed8cee52fdcc4b2c62a869b2ca24157f.svg",
     "static/media/facebook.svg": "/finance-ledger-test/static/media/facebook.ede9b5e217ae4f4756393a3a2be6451a.svg",
     "static/media/arrow-button.svg": "/finance-ledger-test/static/media/arrow-button.52a4510c1d6b828e9dadabb49e4ba766.svg",
-    "main.36829075.css.map": "/finance-ledger-test/static/css/main.36829075.css.map",
-    "main.29552445.js.map": "/finance-ledger-test/static/js/main.29552445.js.map"
+    "main.4524e3c2.css.map": "/finance-ledger-test/static/css/main.4524e3c2.css.map",
+    "main.7805fa20.js.map": "/finance-ledger-test/static/js/main.7805fa20.js.map"
   },
   "entrypoints": [
-    "static/css/main.36829075.css",
-    "static/js/main.29552445.js"
+    "static/css/main.4524e3c2.css",
+    "static/js/main.7805fa20.js"
   ]
 }
