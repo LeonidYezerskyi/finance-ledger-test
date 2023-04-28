@@ -9,6 +9,10 @@
     align-items: center;
     padding-top: 20px;
     margin-bottom: 12px;
+
+    @media screen and (min-width: 768px) {
+                margin-bottom: 10px;
+        }
 }
 
 .copyright {
@@ -17,4 +21,9 @@
     text-align: center;
     color: #FFFFFF;
     padding-bottom: 20px;
+
+    @media screen and (min-width: 768px) {
+            font-size: 18px;
+                line-height: 25px;
+        }
 }

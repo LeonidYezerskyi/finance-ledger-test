@@ -1,11 +1,19 @@
 import React from 'react'
+import { useMedia } from 'react-use';
 import css from './Blog.module.css'
 import blog from '../../images/blog/blog.jpg'
+import blogTablet from '../../images/blog/blogTablet.jpg'
+import blogDesk from '../../images/blog/blogDesk.jpg'
+
 
 const Blog = () => {
+    const isWide = useMedia('(max-width: 767.9px)');
+    const isWide2 = useMedia('(min-width: 1360px)');
+
     return (
-        <div>
-            <img src={blog} alt="blog" />
+        <div className={css.wrapper}>
+            {isWide ? (<img className={css.img} src={blog} alt="blog" />) :
+                (<img className={css.img} src={isWide2 ? (blogDesk) : (blogTablet)} alt="blog" />)}
             <div className={css.textWrapper}>
                 <p className={css.dateInfo}>April 16 2020</p>
                 <h2 className={css.title}>Blog Post One</h2>

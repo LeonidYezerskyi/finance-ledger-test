@@ -14,13 +14,13 @@ const Cases = () => {
             <p className={css.upperTitle}>This is what we do</p>
             <h2 className={css.title}>Business Cases</h2>
             <p className={css.info}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, sapiente!</p>
-            <ul className={css.list}>
-                <li><img src={cases1} alt="cases1" /></li>
-                <li><img src={cases2} alt="cases2" /></li>
-                <li><img src={cases3} alt="cases3" /></li>
-                <li><img src={cases4} alt="cases4" /></li>
-                <li><img src={cases5} alt="cases5" /></li>
-                <li><img src={cases6} alt="cases6" /></li>
+            <ul className={css.gridImages}>
+                <li><img className={css.img} src={cases1} alt="cases1" /></li>
+                <li><img className={css.img} src={cases2} alt="cases2" /></li>
+                <li><img className={css.img} src={cases3} alt="cases3" /></li>
+                <li><img className={css.img} src={cases4} alt="cases4" /></li>
+                <li><img className={css.img} src={cases5} alt="cases5" /></li>
+                <li><img className={css.img} src={cases6} alt="cases6" /></li>
             </ul>
         </div>
     )

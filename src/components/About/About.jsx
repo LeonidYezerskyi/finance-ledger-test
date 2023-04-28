@@ -1,11 +1,9 @@
 import React from 'react'
+import { useMedia } from 'react-use';
 import css from './About.module.css'
 import people from '../../images/about/people.jpg'
 import peopleTablet from '../../images/about/peopleTablet.jpg'
 import peopleDesk from '../../images/about/peopleDesk.jpg'
-
-
-import { useMedia } from 'react-use';
 
 const About = () => {
     const isWide = useMedia('(max-width: 767.9px)');
