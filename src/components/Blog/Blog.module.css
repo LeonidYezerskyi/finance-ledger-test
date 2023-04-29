@@ -97,3 +97,10 @@
         margin-bottom: 80px;
     }
 }
+
+.button:hover,
+.button:focus {
+    background: #F4F4F4;
+    border: 1px solid #0284D0;
+    color: #0284D0;
+}

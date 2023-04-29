@@ -1,10 +1,6 @@
 import React from 'react'
 import css from './Footer.module.css'
-import facebook from '../../images/footer/facebook.svg'
-import twitter from '../../images/footer/twitter.svg'
-import youtube from '../../images/footer/youtube.svg'
-import linkedin from '../../images/footer/linkedin.svg'
-
+import socialSprite from '../../images/footer/socialSprite.svg'
 
 
 const Foter = () => {
@@ -12,16 +8,32 @@ const Foter = () => {
         <div className={css.footerWrapper}>
             <ul className={css.list}>
                 <li>
-                    <img src={facebook} alt="facebook" />
+                    <a href="https://www.facebook.com/" aria-label="link to facebook">
+                        <svg className={css.svg} width="35" height="35">
+                            <use href={`${socialSprite}#icon-facebook`}></use>
+                        </svg>
+                    </a>
                 </li>
                 <li>
-                    <img src={twitter} alt="twitter" />
+                    <a href="https://www.twitter.com/" aria-label="link to twitter">
+                        <svg className={css.svg} width="35" height="35">
+                            <use href={`${socialSprite}#icon-twitter`}></use>
+                        </svg>
+                    </a>
                 </li>
                 <li>
-                    <img src={youtube} alt="youtube" />
+                    <a href="https://www.youtube.com/" aria-label="link to youtube">
+                        <svg className={css.svg} width="40" height="35">
+                            <use href={`${socialSprite}#icon-youtube`}></use>
+                        </svg>
+                    </a>
                 </li>
                 <li>
-                    <img src={linkedin} alt="linkedin" />
+                    <a href="https://www.linkedin.com/" aria-label="link to linkedin">
+                        <svg className={css.svg} width="31" height="35">
+                            <use href={`${socialSprite}#icon-linkedin`}></use>
+                        </svg>
+                    </a>
                 </li>
             </ul>
             <p className={css.copyright}>Copyright © 2021 - FinanceLedger</p>

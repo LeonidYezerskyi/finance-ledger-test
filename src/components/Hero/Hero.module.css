@@ -84,4 +84,8 @@
     margin-right: auto;
 }
 
+.button:hover, .button:focus {
+    opacity: 0.9;
+}
+
 .buttonImg {margin-right: 8px;}

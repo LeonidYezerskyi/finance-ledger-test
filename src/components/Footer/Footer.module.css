@@ -11,8 +11,16 @@
     margin-bottom: 12px;
 
     @media screen and (min-width: 768px) {
-                margin-bottom: 10px;
-        }
+        margin-bottom: 10px;
+    }
+}
+
+.svg {
+    fill: #FFFFFF;
+}
+
+.svg:hover, .svg:focus {
+    fill: #28a745;
 }
 
 .copyright {

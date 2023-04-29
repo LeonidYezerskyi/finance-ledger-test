@@ -16,11 +16,11 @@ const Header = () => {
                 </a>
             </div>
             <ul className={css.headerNav}>
-                <li className={css.headerNavLink}><a href="/">Home</a></li>
-                <li className={css.headerNavLink}><a href="/">About</a></li>
-                <li className={css.headerNavLink}><a href="/">Cases</a></li>
-                <li className={css.headerNavLink}><a href="/">Blog</a></li>
-                <li className={css.headerNavLink}><a href="/">Contact</a></li>
+                <li><a className={css.headerNavLink} href="/">Home</a></li>
+                <li><a className={css.headerNavLink} href="/">About</a></li>
+                <li><a className={css.headerNavLink} href="/">Cases</a></li>
+                <li><a className={css.headerNavLink} href="/">Blog</a></li>
+                <li><a className={css.headerNavLink} href="/">Contact</a></li>
             </ul>
         </div>
     )

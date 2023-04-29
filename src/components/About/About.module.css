@@ -80,3 +80,9 @@
         line-height: 25px;
     }
 }
+
+.button:hover, .button:focus {
+    background: #F4F4F4;
+    border: 1px solid #28A745;
+    color: #28A745;
+}

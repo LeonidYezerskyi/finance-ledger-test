@@ -95,3 +95,7 @@
         margin-bottom: 77px;
     }
 }
+
+.button:hover, .button:focus {
+    opacity: 0.9;
+}
