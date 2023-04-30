@@ -1,19 +1,25 @@
 import React from 'react'
-import { useMedia } from 'react-use';
 import css from './Blog.module.css'
-import blog from '../../images/blog/blog.jpg'
-import blogTablet from '../../images/blog/blogTablet.jpg'
-import blogDesk from '../../images/blog/blogDesk.jpg'
+import blogJpg from '../../images/blog/blog.jpg'
+import blogJpg2x from '../../images/blog/blog@2x.jpg'
+import blogWebp from '../../images/blog/blog.webp'
+import blogWebp2x from '../../images/blog/blog@2x.webp'
 
 
 const Blog = () => {
-    const isWide = useMedia('(max-width: 767.9px)');
-    const isWide2 = useMedia('(min-width: 1360px)');
 
     return (
-        <div className={css.wrapper}>
-            {isWide ? (<img className={css.img} src={blog} alt="blog" />) :
-                (<img className={css.img} src={isWide2 ? (blogDesk) : (blogTablet)} alt="blog" />)}
+        <div id="Blog" className={css.wrapper}>
+            <picture>
+                <source
+                    srcSet={`${blogWebp} 1x, ${blogWebp2x} 2x`}
+                    type="image/webp"
+                />
+                <source
+                    srcSet={`${blogJpg} 1x, ${blogJpg2x} 2x`}
+                    type="image/jpeg" />
+                <img src={blogJpg} className={css.img} alt="blog" />
+            </picture>
             <div className={css.textWrapper}>
                 <p className={css.dateInfo}>April 16 2020</p>
                 <h2 className={css.title}>Blog Post One</h2>

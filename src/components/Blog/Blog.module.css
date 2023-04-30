@@ -2,14 +2,29 @@
     @media screen and (min-width: 768px) {
         display: flex;
         flex-direction: row-reverse;
+        width: 768px;
+    }
+
+    @media screen and (min-width: 1360px) {
+        display: flex;
+        flex-direction: row-reverse;
+        width: 1360px;
     }
 }
 
 .img {
     width: 100%;
+    display: block;
+    object-fit: cover;
+
+    @media screen and (min-width: 768px) {
+        width: 368px;
+        height: 493px;
+    }
 
     @media screen and (min-width: 1360px) {
         width: 670px;
+        height: 460px;
     }
 }
 
@@ -21,11 +36,15 @@
     @media screen and (min-width: 768px) {
         padding-left: 32px;
         padding-right: 32px;
+        width: 400px;
+        height: 493px;
     }
 
     @media screen and (min-width: 1360px) {
         padding-left: 28px;
         padding-right: 20px;
+        width: 690px;
+        height: 460px;
     }
 }
 

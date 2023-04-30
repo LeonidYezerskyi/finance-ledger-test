@@ -26,12 +26,6 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
- /* @media screen and (max-width: 768px) {
-     ::-webkit-scrollbar {
-         width: 0 !important;
-     }
- } */
-
 code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
         monospace;

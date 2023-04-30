@@ -1,12 +1,11 @@
 import React from 'react'
-// import css from './Home.module.css'
 import Header from 'components/Header/Header'
 import Hero from 'components/Hero/Hero'
 
 
 const Home = () => {
     return (
-        <div>
+        <div id="Home">
             <Header />
             <Hero />
         </div>
