@@ -8,7 +8,7 @@ import Team from "./Team/Team";
 
 export const App = () => {
   return (
-    <div>
+    <div >
       <Home />
       <About />
       <Cases />

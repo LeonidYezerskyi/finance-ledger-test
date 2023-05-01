@@ -32,20 +32,22 @@ const Header = () => {
     }, []);
 
     return (
-        <div className={css.header} style={visible}>
-            <div className={css.logo}>
-                <Link to="Home" spy={true} smooth={true} offset={0} duration={100} >
-                    {isWide ? (<img src={logo} alt="logo" width="246.31" />) :
-                        (<img src={logoTablet} alt="logoTablet" width="297" />)}
-                </Link>
+        <div className={css.headerWrapper}>
+            <div className={css.header} style={visible}>
+                <div className={css.logo}>
+                    <Link to="Home" spy={true} smooth={true} offset={0} duration={100} >
+                        {isWide ? (<img src={logo} alt="logo" width="246.31" />) :
+                            (<img src={logoTablet} alt="logoTablet" width="297" />)}
+                    </Link>
+                </div>
+                <ul className={css.headerNav}>
+                    <li className={css.headerNavLink}><Link activeClass={css.active} to="Home" spy={true} smooth={true} offset={-70} duration={100} >Home</Link></li>
+                    <li className={css.headerNavLink}><Link activeClass={css.active} to="About" spy={true} smooth={true} offset={-70} duration={100} >About</Link></li>
+                    <li className={css.headerNavLink}><Link activeClass={css.active} to="Cases" spy={true} smooth={true} offset={-70} duration={100} >Cases</Link></li>
+                    <li className={css.headerNavLink}><Link activeClass={css.active} to="Blog" spy={true} smooth={true} offset={-70} duration={100} >Blog</Link></li>
+                    <li className={css.headerNavLink}><Link activeClass={css.active} to="Contact" spy={true} smooth={true} offset={-100} duration={100} >Contact</Link></li>
+                </ul>
             </div>
-            <ul className={css.headerNav}>
-                <li className={css.headerNavLink}><Link activeClass={css.active} to="Home" spy={true} smooth={true} offset={-70} duration={100} >Home</Link></li>
-                <li className={css.headerNavLink}><Link activeClass={css.active} to="About" spy={true} smooth={true} offset={-70} duration={100} >About</Link></li>
-                <li className={css.headerNavLink}><Link activeClass={css.active} to="Cases" spy={true} smooth={true} offset={-70} duration={100} >Cases</Link></li>
-                <li className={css.headerNavLink}><Link activeClass={css.active} to="Blog" spy={true} smooth={true} offset={-70} duration={100} >Blog</Link></li>
-                <li className={css.headerNavLink}><Link activeClass={css.active} to="Contact" spy={true} smooth={true} offset={-100} duration={100} >Contact</Link></li>
-            </ul>
         </div>
     )
 }
