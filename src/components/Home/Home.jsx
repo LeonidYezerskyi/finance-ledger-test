@@ -5,7 +5,7 @@ import Hero from 'components/Hero/Hero'
 
 const Home = () => {
     return (
-        <div id="Home" style={{ marginLeft: 'auto', marginRight: 'auto' }}>
+        <div id="Home" >
             <Header />
             <Hero />
         </div>
